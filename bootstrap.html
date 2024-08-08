@@ -1,11 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    
+
+<div class="container mt-4">
+    <table class="table table-bordered">
+        <thead class="bg-dark text-light">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" class="bg-warning">1</th>
+                <td class="bg-warning">María</td>
+                <td class="bg-pink text-dark">Jara</td>
+                <td class="bg-success text-light">15</td>
+            </tr>
+            <tr>
+                <th scope="row" class="bg-warning">2</th>
+                <td class="bg-warning">Juan</td>
+                <td class="bg-pink text-dark">Morales</td>
+                <td class="bg-success text-light">3</td>
+            </tr>
+            <tr>
+                <th scope="row" class="bg-warning">3</th>
+                <td colspan="2" class="bg-warning">Bernarda</td>
+                <td class="bg-success text-light">33</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
